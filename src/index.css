@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .current {
+    @apply bg-white/10;
+  }
+
+  .owner-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-14 -mt-5 scale-0 max-w-[200px];
+  }
+
+  .status-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-4 -mt-8 scale-0 max-w-[200px];
+  }
+
+  .graphql-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-7 -mt-9 scale-0 max-w-[200px];
+  }
+
+  .secret-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-12 -mt-7 scale-0 max-w-[200px];
+  }
+
+  .region-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-7 -mt-9 scale-0 max-w-[200px];
+  }
+
+  .secret-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-4 scale-0 max-w-[200px];
+  }
+
+  .copy-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-3 -mt-8 scale-0 max-w-[200px];
+  }
+
+  .newlabel-tooltip {
+    @apply absolute bg-black text-white text-center text-sm rounded-md px-2 py-2 ml-4 -mt-8 scale-0 max-w-[200px];
+  }
+
+  .status-good {
+    @apply text-hasureblue border-hasureblue;
+  }
+
+  .status-bad {
+    @apply text-[#d41e1e] border-[#d41e1e];
+  }
+
+  .current-button {
+    @apply bg-hasureblue border-hasureblue-dark text-white shadow-md;
+  }
+}
